@@ -6,7 +6,7 @@ docker rm adminer
 docker rm postgres
 docker rm nextcloud
 docker network rm lan-nextcloud
-rm -rf /opt/nextcloud
-rm -rf /opt/postgresql
+rm -rf /home/$USER/opt/nextcloud
+rm -rf /home/$USER/opt/postgresql
 
 
